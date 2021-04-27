@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>blackjack game</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- challenge-5: blackjack-project -->
+    <div class="container-5">
+      <h2>Challenge:5 Blackjack</h2>
+      <h3><span id="blackjack-result">Let's play</span></h3>
+      <div class="flex-blackjack-row1">
+        <div id="yourbox">
+          <h2>You: <span id="your-blackjack-result">0</span></h2>
+        </div>
+        <div id="dealer-box">
+          <h2>Dealer: <span id="dealer-blackjack-result">0</span></h2>
+        </div>
+      </div>
+      <div class="flex-blackjack-row2">
+        <div>
+          <button class="btn-lg btn-primary mr-2" id="hitbutton">Hit</button>
+          <button class="btn-lg btn-warning mr-2" id="standbutton"> Stand </button>
+          <button class="btn-lg btn-danger" id="dealbutton">Deal</button>
+        </div>
+      </div>
+      <div class="flex-blackjack-row3">
+        <table>
+          <tr>
+            <th>Wins</th>
+            <th>loses</th>
+            <th>Draws</th>
+          </tr>
+          <tr>
+            <td><span id="wins">0</span></td>
+            <td><span id="loses">0</span></td>
+            <td><span id="draws">0</span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
